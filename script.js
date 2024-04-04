@@ -112,22 +112,34 @@ console.log(sum);
 */
 
 //*9.primary number
-/*
-let n,x,i;
-n=window.prompt("Enter number:");
-i=2;
-x=n%i;
-while(x!=0){
-    i++;
-    x=n%i;
-}
-if(n==i){
-    console.log(n,"is primary number");
-}else
-console.log(n,"is primary numb
-er");
-*/
+// let n,x,i;
+// n=window.prompt("Enter number:");
+// i=2;
+// x=n%i;
+// while(x!=0){
+//     i++;
+//     x=n%i;
+// }
+// if(x==i){
+//     console.log(n,"is primary number");
+// }else
+// console.log(n,"is primary number");
 
+// function isPrime(num) {
+//   for (let i = 2; i < num; i++) {
+//       if (num % i === 0) {
+//           return false;
+//       }
+//   }
+//   return num > 1;
+// }
+
+// let n=window.prompt("input n:");
+// for (let i = 1; i <= n; i++) {
+//   if (isPrime(i)) {
+//       console.log(i, "is a prime number");
+//   }
+// }
 /*
 //*10.Write a program that finds the largest number in an array using a loop.
 let numbers = [10, 5, 20, 15, 25];
@@ -142,4 +154,3 @@ for (let i = 1; i < numbers.length; i++) {
 
 console.log("The largest number is:", largest);
 */
-
