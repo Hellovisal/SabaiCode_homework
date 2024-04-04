@@ -72,12 +72,22 @@ for (let i = 1; i <= 10; i++) {
 
 /*
 //*6.Write a program that count the odd and even numbers from the list of numbers containing 1 to 10
-let number = prompt("Enter your number:");
-if(number%2==0){
-    console.log(number,"is an even number");
-}else{
-    console.log(number,"is an odd number");
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let evenCount = 0;
+let oddCount = 0;
+
+for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] % 2 === 0) {
+        console.log(numbers[i], "is an even number");
+        evenCount++;
+    } else {
+        console.log(numbers[i], "is an odd number");
+        oddCount++;
+    }
 }
+
+console.log("Total even numbers:", evenCount);
+console.log("Total odd numbers:", oddCount);
 */
 
 /*
@@ -134,8 +144,8 @@ console.log(sum);
 //   }
 //   return num > 1;
 // }
-// let n=window.prompt("input n:");
-// for (let i = 1; i <= n; i++) {
+// let num=window.prompt("input number:");
+// for (let i = 1; i <= num; i++) {
 //   if (isPrime(i)) {
 //       console.log(i, "is a prime number");
 //   }
