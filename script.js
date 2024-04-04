@@ -112,6 +112,7 @@ console.log(sum);
 */
 
 //*9.primary number
+//step1
 // let n,x,i;
 // n=window.prompt("Enter number:");
 // i=2;
@@ -133,7 +134,7 @@ console.log(sum);
 //   }
 //   return num > 1;
 // }
-
+//step2
 // let n=window.prompt("input n:");
 // for (let i = 1; i <= n; i++) {
 //   if (isPrime(i)) {
