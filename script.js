@@ -125,7 +125,7 @@ console.log(sum);
 //     console.log(n,"is primary number");
 // }else
 // console.log(n,"is primary number");
-
+//step2
 // function isPrime(num) {
 //   for (let i = 2; i < num; i++) {
 //       if (num % i === 0) {
@@ -134,7 +134,6 @@ console.log(sum);
 //   }
 //   return num > 1;
 // }
-//step2
 // let n=window.prompt("input n:");
 // for (let i = 1; i <= n; i++) {
 //   if (isPrime(i)) {
